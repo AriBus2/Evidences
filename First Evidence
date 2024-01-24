@@ -1,0 +1,17 @@
+import java.util.Scanner;
+//import java.utl, *;
+public class Main 
+{
+    public static void main(String[]args)
+    {
+        Float area;
+        Scanner scanner = new Scanner (System.in);
+        System.out.print("la base del triangulo");
+        Float base = scanner.nextFloat();
+        System.out.print("Ingresa la altura del triangulo ");
+        Float h = scanner.nextFloat();
+        area= (base*h)/2;
+        System.out.println("El área es "+area);
+        System.out.println("Gracias " );
+    }
+}
