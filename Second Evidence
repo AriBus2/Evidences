@@ -1,0 +1,27 @@
+import java.util.Scanner;
+//import java.utl, *;
+public class Main 
+{
+    public static void main(String[]args)
+    {
+        Float Calculo;
+        Float Procesos;
+        Float Producción;
+        Float Persona;
+        Float Literatura;
+        Float Promedio;
+        Scanner scanner = new Scanner (System.in);
+        System.out.print("Calif de Calculo: ");
+        Calculo = scanner.nextFloat();
+        System.out.print("Calif de Producción: ");
+        Producción = scanner.nextFloat();
+        System.out.print("Calif de Persona: ");
+        Persona = scanner.nextFloat();
+        System.out.print("Calif de Literatura: ");
+        Literatura = scanner.nextFloat();
+        System.out.print("Calif de Procesos: ");
+        Procesos = scanner.nextFloat();
+        Promedio= (Calculo+Producción+Persona+Literatura+Procesos)/5;
+        System.out.println("Tu promedio es: "+ Promedio);
+        System.out.println("Gracias " );
+    }
